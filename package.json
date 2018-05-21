@@ -10,7 +10,8 @@
     "test:specify": "jest -t",
     "test:cov": "jest --coverage",
     "flow": "flow",
-    "start": "next -p process.env.PORT"
+    "build": "next build",
+    "start": "NODE_ENV=production next"
   },
   "jest": {
     "setupFiles": [
