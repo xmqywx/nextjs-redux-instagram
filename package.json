@@ -11,7 +11,7 @@
     "test:cov": "jest --coverage",
     "flow": "flow",
     "build": "next build",
-    "start": "node server"
+    "start": "next build && node server"
   },
   "jest": {
     "setupFiles": [
