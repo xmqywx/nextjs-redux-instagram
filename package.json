@@ -10,7 +10,7 @@
     "test:specify": "jest -t",
     "test:cov": "jest --coverage",
     "flow": "flow",
-    "start": "next -p 3003"
+    "start": "next -p process.env.PORT"
   },
   "jest": {
     "setupFiles": [
